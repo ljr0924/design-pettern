@@ -36,7 +36,7 @@ class Order:
 
     @property
     def promotion(self) -> None:
-        pass
+        return None
 
     @promotion.setter
     def promotion(self, p: callable) -> None:
